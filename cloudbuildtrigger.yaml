@@ -1,0 +1,9 @@
+steps:
+# Step 1: Print a simple message
+- name: 'alpine'
+  entrypoint: 'sh'
+  args:
+    - '-c'
+    - 'echo "Cloud Build Trigger is working!"'
+
+timeout: '60s' # Optional timeout (1 minute)
